@@ -1,0 +1,54 @@
+<! DOCTYPE html>
+<html lang="fr-FR">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="cmo.css">
+    </head>
+    
+    <body>
+        <header>
+            <h1 class="TitrePrincipal">Calcule ta moyenne d’orientation</h1>
+            <p class="SousTitre">Proposé par Elisée KONAN et Morel BEDA</p>
+        </header>
+        <main>
+            <div id="Bienvenue">
+                <h3>
+                    Hello
+                </h3>
+                <p>
+Bienvenue sur notre outil de calcul de moyenne d’orientation.
+Ici, tu peux facilement combiner tes notes annuelles et tes résultats au BEPC pour obtenir ta moyenne finale.
+Un coup d’œil rapide pour mieux préparer ta prochaine étape scolaire !
+                </p>
+            </div>
+            <h3 id="h31">calculez votre moyenne d'orientation ici ⬇️👇</h3>
+            <form id="nameForm">
+                <input type="text" id="username" placeholder="Entrez votre nom" required ><br>
+            </form>
+            
+            <p id="customMessage"></p>
+            
+            <form action="simulateur.html" method="get" id="startForm" style="display: none;">
+                <button type="submit">C’est parti !</button>
+            </form>
+            <img src="image.jpeg" alt="image de bienvenue">
+        </main>
+        <footer>
+            <hr>
+            <div id="auteurs-container">
+                <div class="auteur-card">
+                    <h4>👤 Elisée KONAN</h4>
+                    <p>📞 +225 01 61 34 56 04</p>
+                    <p>📧 <a href="mailto:angemohayet@gmail.com">angemohayet@gmail.com</a></p>
+                </div>
+                <div class="auteur-card">
+                    <h4>👤 Morel BEDA</h4>
+                    <p>📞 +225 07 00 00 00 00</p>
+                    <p>📧 <a href="mailto:morel.beda@example.com">morel.beda@example.com</a></p>
+                </div>
+            </div>
+        </footer>
+        <script src="calcul.js"></script>
+    </body>
+</html>
